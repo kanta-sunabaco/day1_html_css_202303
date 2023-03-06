@@ -97,7 +97,7 @@ header ul{
   justify-content: center;
   align-items: center;
 	font-size: 30px;
-	color:rgb(250, 235, 215);
+	color:#faebd7;
 }
 
 #about, #info{
@@ -144,7 +144,7 @@ header ul{
 
 
 #faq summary{
-  background-color: cadetblue;
+  background-color: #faebd7;
   font-size: 18px;
   text-align: left;
   padding: 10px 30px;
@@ -155,6 +155,16 @@ header ul{
 	margin-bottom: 30px;
 }
 
+footer div{
+	background-color: cadetblue;
+	margin-top: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
 @media screen and (max-width:478px){
 	body{
 		background-color: beige;
@@ -162,5 +172,8 @@ header ul{
 
 	#about, #info{
 		flex-direction: column;
+	}
+	#about img, .about_box, #info iframe, .info_box{
+		width: 100%;
 	}
 }
